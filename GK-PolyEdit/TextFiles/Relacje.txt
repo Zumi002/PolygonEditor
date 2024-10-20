@@ -1,0 +1,25 @@
+Relacje to specjalne własności krawędzi, zaimplementowane są:
+
+- relacja odległości
+	krawędź będzie miała stałą, ustawioną 
+	przez użytkownika długość
+	
+- relacja pionowa
+	krawędź będzie pionowa
+	nie może sąsiadować z już pionową krawędzią
+
+- relacja pozioma
+	krawędź będzie pozioma
+	nie może sąsiadować z już poziomą krawędzią
+
+Algorytm rozwiązywania relacji:
+
+Przy poruszaniu wierzchołka mogłoby się okazać że pewna relacja nie jest spełniona, wtedy przystępujemy do rozwiązywania relacji.
+Wierzchołki będą oczekiwały sprawdzienia czy styczne im krawędzie mają spełnione relacje w kolejce.
+Kolejka inicjowana jest poruszonym wierzchołkiem.
+Jeżeli kolejka będzie pusta oznacza to że wszystkie relacje są spełnione.
+W pojedynczej iteracji wyjmujemy wierzchołek z kolejki i patrzymy czy sąsiadujące krawędzie mają spełnione relacje.
+W przypadku nie spełnionej relacji poruszamy drugim wierzchołkiem krawędzi tak aby relacje spełnić, i dokładamy go do kolejki.
+Wyjątkiem jest wierzchołek pruszony którym ruszyć nie można, w takim wypadku tylko dokładamy go do kolejki.
+Przechodzimy tak po wierzchołkach dopóki wszystkie relacje nie będą spełnione, albo do ustalonej liczby odwiedzonych wierzchołków (np. 100)
+W razie przekroczenia limitu, decydowane jest że nie jest możliwe ustawienie wielokąta z takimi ograniczeniami, co skutkuje poruszeniem całym wielokątem a nie tylko wierzchołkiem

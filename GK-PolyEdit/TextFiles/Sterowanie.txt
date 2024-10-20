@@ -1,0 +1,21 @@
+Sterowanie:
+
+LPM użyty na:
+
+-Wierzchołek, wybiera wierzchołek i przesuwa nim
+
+-Punkt kontroly krzywej Beziera, wybiera punkt i nim przesuwa 
+
+-Wielokąt, wybiera wielokąt i przesuwa nim
+
+PPM użyty na:
+
+-Wierzchołek, pokazuje menu w którym można:
+	- usunąć wierzchołek
+	- zmienić ciągłość
+
+-Krawędź, pokazuje menu w którym można:
+	- dodać wierzchołek 
+	- ustawić relacje krawędzi
+	- usunąć relacje
+	- zmienić krawędź na krzywą Beziera
