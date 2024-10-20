@@ -44,6 +44,8 @@
             // 
             // textBox1
             // 
+            textBox1.AcceptsReturn = true;
+            textBox1.AcceptsTab = true;
             textBox1.Location = new Point(25, 21);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
