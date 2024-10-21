@@ -9,6 +9,7 @@ namespace GK_PolyEdit.Drawing
 {
     static class DrawLineBresenham
     {
+        //pomysł z https://mst.mimuw.edu.pl/lecture.php?lecture=gk1&part=Ch2
         public static void DrawLine(DirectBitmap bmp,PointF A, PointF B,Pen pen)
         {
             

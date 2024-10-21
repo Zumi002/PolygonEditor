@@ -123,6 +123,7 @@ namespace GK_PolyEdit.Polygon
             bool canHaveRelation = (!rel.ex)||
                                    ((prevV.prevE.relation==null||prevV.prevE.relation.name != rel.name) &&
                                    (nextV.nextE.relation==null||nextV.nextE.relation.name != rel.name));
+            isBezier = relation.name == "B";
             if (canHaveRelation && RelationSolver.TrySolve(prevV))
             {
                 isBezier = relation.name == "B";

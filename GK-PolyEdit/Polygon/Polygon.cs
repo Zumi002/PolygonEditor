@@ -56,6 +56,9 @@ namespace GK_PolyEdit.Polygon
 
             polygonSelected = false;
 
+            e1.AddRelation(new BezierRelation());
+            e2.AddRelation(new HorizontalRelation());
+
             bezierControlEdgePen.DashPattern = new float[] { 5, 5 };
 
         }

@@ -23,6 +23,7 @@ namespace GK_PolyEdit.TextFiles
             {
                 this.Close();
             }
+            text = text.Replace("\n",Environment.NewLine);
             textBox1.Text = text;
         }
 
