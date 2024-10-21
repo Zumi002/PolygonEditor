@@ -222,14 +222,12 @@ namespace GK_PolyEdit.Relations
 
             double angleAMID = Math.Atan2(MID.Y - A.Y, MID.X - A.X);
 
-            // Calculate the distance between MID and B
             double distanceMIDB = Math.Sqrt(Math.Pow(B.X - MID.X, 2) + Math.Pow(B.Y - MID.Y, 2));
 
-            // Calculate the new position of B
-            double newBX = MID.X + (distanceMIDB * Math.Cos(angleAMID));
-            double newBY = MID.Y + (distanceMIDB * Math.Sin(angleAMID));
+            double X = MID.X + (distanceMIDB * Math.Cos(angleAMID));
+            double Y = MID.Y + (distanceMIDB * Math.Sin(angleAMID));
 
-            return new PointF((float)newBX, (float)newBY);
+            return new PointF((float)X, (float)Y);
         }
 
 
