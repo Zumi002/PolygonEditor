@@ -261,5 +261,10 @@ namespace GK_PolyEdit
             HelpPopup dial = new HelpPopup("Relacje");
             dial.ShowDialog();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

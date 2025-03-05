@@ -308,7 +308,8 @@
             MaximumSize = new Size(816, 514);
             MinimumSize = new Size(816, 514);
             Name = "Main";
-            Text = "Form1";
+            Text = "PolygonEditor";
+            Load += Main_Load;
             ((System.ComponentModel.ISupportInitialize)PolygonBox).EndInit();
             MainPanel.ResumeLayout(false);
             MainPanel.PerformLayout();
