@@ -35,8 +35,8 @@ For enhanced curve smoothness, users can enforce different types of continuity a
 ### Edge Rendering
 Users can select different algorithms for drawing polygon edges:
 
-- Library Algorithm – Uses the built-in ```System.Drawing``` functions.
-- Bresenham’s Algorithm – A custom implementation of the Bresenham line algorithm.
+- Library Algorithm - Uses the built-in ```System.Drawing``` functions.
+- Bresenham’s Algorithm - A custom implementation of the Bresenham line algorithm.
 
 <p align="center">
   <img src="Images/AppImage2.png"/>
