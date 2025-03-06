@@ -6,7 +6,7 @@ It provides an intuitive interface for users to manipulate shapes by adding vert
 transforming edges, and enforcing relationships between them.
 
 <p align="center">
-  <img src="Images/AppImage1.PNG"/>
+  <img src="Images/AppImage1.png"/>
 </p>
 
 ## Features
@@ -39,9 +39,9 @@ Users can select different algorithms for drawing polygon edges:
 - Bresenham’s Algorithm – A custom implementation of the Bresenham line algorithm.
 
 <p align="center">
-  <img src="Images/AppImage2.PNG"/>
+  <img src="Images/AppImage2.png"/>
 </p>
 
 <p align="center">
-  <img src="Images/AppImage3.PNG"/>
+  <img src="Images/AppImage3.png"/>
 </p>
